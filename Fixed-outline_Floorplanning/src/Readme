@@ -1,0 +1,17 @@
+How to complie :
+  $ make all
+  Will generate a exe file in ../bin/
+  $ make clean
+  Will remove the exe file
+  
+How to execute program :
+  Under /src/ can use :
+  $ make n100_0.1  
+  $ make n100_0.15 
+  $ make n200_0.1  
+  $ make n200_0.15 
+  $ make n300_0.1  
+  $ make n300_0.15 
+  
+  Under /bin/ can use : 
+  $ ./fp *.blocks *.nets *.pl *.floorplan "white_space_ratio"
